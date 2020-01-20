@@ -1,0 +1,19 @@
+{
+  "name": "navex",
+  "version": "1.0.0",
+  "description": "Landing for navex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fertern/navex.git"
+  },
+  "author": "Fertern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fertern/navex/issues"
+  },
+  "homepage": "https://github.com/Fertern/navex#readme"
+}
