@@ -119,7 +119,7 @@ nav a:hover {
 }
 .info-block__wrapper {
   height: 100vh;
-  background-image: url("../../images/background.jpg");
+  background-image: url("../images/background.jpg");
   z-index: 1;
   color: white;
   text-align: center;
