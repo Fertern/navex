@@ -1,6 +1,10 @@
 // out: index.css, compress: true
+
+@import "vars";
+
 body {
   margin: 0;
+  background-image: url(../images/background2.jpg);
 }
 *,
 *:after,
@@ -9,7 +13,7 @@ body {
   box-sizing: border-box;
   outline: none;
   text-decoration: none;
-  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  font-family: @main-font;
   font-size: 1.5vw;
   word-break: break-word;
 }
@@ -34,3 +38,6 @@ h6 {
 @import "blocks/container.less";
 @import "blocks/servers-button.less";
 @import "blocks/vkLink.less";
+@import "blocks/serverList.less";
+@import "blocks/breach.less";
+@import "blocks/our-servers.less";
