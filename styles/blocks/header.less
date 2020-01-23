@@ -10,3 +10,34 @@ header {
   align-items: center;
   z-index: 90;
 }
+
+@media @lessThanDesktop {
+  header {
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    height: auto;
+    position: relative;
+  }
+  .logo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    display: block;
+    position: static !important;
+  }
+  nav {
+    padding-left: 0px !important;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    div {
+      margin-bottom: 20px;
+    }
+  }
+  .vkLink {
+    margin-top: 50px !important;
+    margin-right: 0px !important;
+    margin-bottom: 50px;
+  }
+}

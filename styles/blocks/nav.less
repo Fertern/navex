@@ -3,14 +3,21 @@ nav {
   display: flex;
   padding-left: 40px;
   align-items: center;
-  width: 17%;
+  width: 18%;
+  min-width: 260px;
   justify-content: space-between;
   z-index: 90;
   a {
     color: #ffffff;
+    width: 100%;
     font-weight: 600;
     text-transform: uppercase;
     font-family: @main-font;
     font-size: 16px !important;
+    word-break: normal;
+  }
+  a:hover {
+    color: #c2c2c2;
+    transition: color 0.2s linear;
   }
 }
